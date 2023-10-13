@@ -3,27 +3,27 @@
 static void type_checker(char c, va_list var, int *p)
 {
 	if (c == 'c')
-		ft_putchar(va_arg(var, int), p);
+		_putchar(va_arg(var, int), p);
 	else if (c == 's')
-		ft_putstr(va_arg(var, char *), p);
+		putstr(va_arg(var, char *), p);
 	else if (c == 'd' || c == 'i')
-		ft_putnbr(va_arg(var, int), p);
+		putnbr(va_arg(var, int), p);
 	else if (c == 'u')
-		ft_putnbr_u(va_arg(var, unsigned int), p);
+		putnbr_u(va_arg(var, unsigned int), p);
 	else if (c == 'p')
-		ft_print_pointer(va_arg(var, unsigned long int), p, c);
+		print_pointer(va_arg(var, unsigned long int), p, c);
 	else if (c == 'x' || c == 'X')
-		ft_putnbr_hex(va_arg(var, unsigned long int), p, c);
+		putnbr_hex(va_arg(var, unsigned long int), p, c);
 	else if (c == '%')
-		ft_putchar('%', p);
+		_putchar('%', p);
 	else
-		ft_putchar(c, p);
+		_putchar(c, p);
 }
 
 /**
  * _printf - Produces output according to a format
  * @format: A character string
- * Return: PNumber of characters printed
+ * Return: Number of characters printed
  */
 int _printf(const char *str, ...)
 {

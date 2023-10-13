@@ -15,7 +15,7 @@ void putstr(char *s, int *p)
 		s = "(null)";
 	while (s[i])
 	{
-		ft_putchar(s[i], p);
+		_putchar(s[i], p);
 		i++;
 	}
 }

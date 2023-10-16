@@ -60,5 +60,3 @@ for the students of 42/1337 network, i can't stress enough when i say that you n
 (.)<a href="https://www.geeksforgeeks.org/variadic-functions-in-c/">variadic function geeks for geeks</a>
 <br>
 (.)<a href="https://en.cppreference.com/w/c/variadic">varaidic functions learncpp</a>
-
-hope you have a great time reading docs and enjoy the learning process

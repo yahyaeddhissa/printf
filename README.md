@@ -1,4 +1,4 @@
-# 42-ft_printf
+# _printf
 
 recreating printf in my own way
 
